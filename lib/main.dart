@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 //import 'ProfileScreen.dart';
 //import 'Assignment.dart';
 //port 'rentalService.dart';
-import 'CoffeeApp.dart';
+//port 'CoffeeApp.dart';
+import 'pages/HomePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: CoffeeApp()
+      home: HomePage()
     );
   }
 }
